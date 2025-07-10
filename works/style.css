@@ -1,0 +1,78 @@
+.open-sans-bairer{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.header{
+    background-image: url(developer.png),url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-color: #FFF8F3;
+    padding: 0%;
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 50px 220px;
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.dark2{
+    color: #474747;
+}
+.btn-1{
+    background-color: #FD6E0A;
+    /* width: 150px; */
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+/* .btn-1:hover{
+    border: 5px solid rgb(6, 98, 236);
+    border-radius: 0px;
+
+} */
+ .banner img{
+    width: 584px;
+    height: 676px;
+    
+ }
+ .banner{
+    display: flex;
+   justify-content: space-between;
+   margin: 0px 35px 0px 200px;
+    
+ }
+ .b-content{
+    width: 585px;
+    height: 356px;
+    
+ }
